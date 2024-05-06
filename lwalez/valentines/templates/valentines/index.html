@@ -1,0 +1,15 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Isitvalentines?</title>
+        <link href="{%  static 'valentines/styles.css'  %}" rel="stylesheet">
+    </head>
+    <body>
+        {% if valentines %}
+            <h1>It is but hauna mtu :O</h1>
+        {% else %}
+            <h1>Bado uko na time ya kutafuta mtu</h1>
+        {% endif %}
+    </body>
+</html>
